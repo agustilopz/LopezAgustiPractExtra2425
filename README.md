@@ -4,7 +4,7 @@
 
 ### Esctructura inicial del proyecto
 **1. Crea la estructura de archivos y directorios**
-![Imagen 1](screenshots/GitAddImg1.jpg)
+![Imagen 1](proyecto-patrones/screenshots/GitAddImg1.jpg)
 
 **2. Verifica la estructura**
 
