@@ -32,5 +32,5 @@ Opción 2:
 ![Imagen 5](proyecto-patrones/screenshots/GitAddImg5.jpg)
 
 #### 4. Sube el repositorio Git Local al Remoto
-*![Imagen 6](proyecto-patrones/screenshots/GitAddImg6.jpg)
+![Imagen 6](proyecto-patrones/screenshots/GitAddImg6.jpg)
 
