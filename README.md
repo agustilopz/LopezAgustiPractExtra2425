@@ -25,7 +25,7 @@ git commit -m "first commit"
 
 ## Comenzamos
 ### 1. Preparar archivos con patrones simples
-**1.Añade solo los archivos .txt que están en la carpeta docs/ y muestra el estado.**
+**1. Añade solo los archivos .txt que están en la carpeta docs/ y muestra el estado.**
 **2. Haz un commit.**
 ![Imagen 3](proyecto-patrones/screenshots/GitAddImg3.jpg)
 
@@ -36,6 +36,7 @@ git add docs/*.txt
 git status
 ```
 **2. Haz un commit con los cambios.**
+
 Opción 1:
 ![Imagen 4](proyecto-patrones/screenshots/GitAddImg4.jpg)
 ```bash
