@@ -1,8 +1,8 @@
-## Práctica Extra (Git Add y Patrones) - Agustí López
+# Práctica Extra (Git Add y Patrones) - Agustí López
 
 *Este es un proyecto de ámbito académico para practicar Git Add y patrones.*
 
-### Esctructura inicial del proyecto
+## Esctructura inicial del proyecto
 **1. Crea la estructura de archivos y directorios**
 ```bash
 mmkdir -p proyecto-patrones/{docs,scripts,images,temp}
@@ -23,13 +23,13 @@ git commit -m "first commit"
 ```
 ![Imagen 2](proyecto-patrones/screenshots/GitAddImg2.jpg)
 
-### Comenzamos
-#### 1. Preparar archivos con patrones simples
+## Comenzamos
+### 1. Preparar archivos con patrones simples
 **1.Añade solo los archivos .txt que están en la carpeta docs/ y muestra el estado.**
 **2. Haz un commit.**
 ![Imagen 3](proyecto-patrones/screenshots/GitAddImg3.jpg)
 
-#### 2. Trabaja con subdirectorios y extensiones
+### 2. Trabaja con subdirectorios y extensiones
 **1. Añade todos los archivos .js del directorio scripts/ pero excluye config.js y muestra el estado.**
 ```bash
 git add docs/*.txt
@@ -48,7 +48,7 @@ git add scripts/ -- ':!scripts/config.js'
 ```
 ![Imagen 4.2](proyecto-patrones/screenshots/GitAddImg4.2.jpg)
 
-#### 3. Máscaras en niveles
+### 3. Máscaras en niveles
 **1. Añade todas las imágenes excepto las que terminan en .gif**
 ```bash
 git add images/*.{png,jpg}
@@ -60,7 +60,7 @@ git status
 ```
 ![Imagen 5](proyecto-patrones/screenshots/GitAddImg5.jpg)
 
-#### 4. Sube el repositorio Git Local al Remoto
+### 4. Sube el repositorio Git Local al Remoto
 ![Imagen 6](proyecto-patrones/screenshots/GitAddImg6.jpg)
 ```bash
 git remote add origin https://github.com/agustilopz/M08-Patrones.git
