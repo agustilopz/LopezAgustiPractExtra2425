@@ -26,16 +26,17 @@ git commit -m "first commit"
 ## Comenzamos
 ### 1. Preparar archivos con patrones simples
 **1. Añade solo los archivos .txt que están en la carpeta docs/ y muestra el estado.**
+```bash
+git add docs/*.txt
+git status
+```
 
 **2. Haz un commit.**
 ![Imagen 3](proyecto-patrones/screenshots/GitAddImg3.jpg)
 
 ### 2. Trabaja con subdirectorios y extensiones
 **1. Añade todos los archivos .js del directorio scripts/ pero excluye config.js y muestra el estado.**
-```bash
-git add docs/*.txt
-git status
-```
+
 **2. Haz un commit con los cambios.**
 
 Opción 1:
