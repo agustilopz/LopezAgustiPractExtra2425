@@ -65,10 +65,10 @@ git status
 ![Imagen 5](proyecto-patrones/screenshots/GitAddImg5.jpg)
 
 ### 4. Sube el repositorio Git Local al Remoto
-![Imagen 6](proyecto-patrones/screenshots/GitAddImg6.jpg)
 ```bash
 git remote add origin https://github.com/agustilopz/M08-Patrones.git
 git branch -M main
 git push -u origin main
 ```
+![Imagen 6](proyecto-patrones/screenshots/GitAddImg6.jpg)
 
