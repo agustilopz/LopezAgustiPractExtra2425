@@ -40,11 +40,12 @@ git status
 **2. Haz un commit con los cambios.**
 
 Opción 1:
-![Imagen 4](proyecto-patrones/screenshots/GitAddImg4.jpg)
 ```bash
 git add scripts/*.js
 git reset scripts/config.js
 ```
+![Imagen 4](proyecto-patrones/screenshots/GitAddImg4.jpg)
+
 Opción 2:
 ```bash
 git add scripts/ -- ':!scripts/config.js'
